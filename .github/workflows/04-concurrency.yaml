@@ -7,6 +7,6 @@ concurrency:
 jobs: 
   hello:
     runs-on: ubuntu-latest # Linux OS. We can have windows or MAC
-    steps: # stagesbns
+    steps: # stagesbns2
       - name: step1
         run: sleep 20  
