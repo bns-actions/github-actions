@@ -8,3 +8,5 @@ jobs: # Pipeline. One workflow can have multiple pipelines
         run: echo "Hello World"
       - name: step2
         run: echo "Hello GitHub Actions"
+        - name: step3
+        run: echo "Hello NASA"
